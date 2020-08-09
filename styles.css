@@ -45,16 +45,19 @@ body,
 input,
 button,
 textarea {
-  font: 500 1.6rem Poppins;
+  /* font: 500 1.6rem Poppins; */
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 1.6rem;
   color: var(--color-text-base);
 }
 
-/* a {
+a {
   text-decoration: none;
   color: inherit;
-} */
+}
 
-/* #container {
-  display: flex;
-  flex-direction: column;
-} */
+#container {
+  width: 90vw;
+  max-width: 700px;
+}
